@@ -1,0 +1,65 @@
+@font-face {
+    font-family: fontHeader;
+    src: url(../fontes/starjout/Starjout.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(243, 67, 67);
+    text-align: center;
+    padding: 30px;
+    font-size: x-large;
+    font-family: "fontHeader";
+    letter-spacing: 5px;
+}
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*Estilização das principais notícias*/
+main article {
+    width: 85%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+}
+
+main article .container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+main article .imagemPrincipal {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Estilização das notícias segundárias */
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside .caixa {
+    background-color: blanchedalmond;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+aside .caixa h3 {
+    padding: 20px;
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 40px;
+}
